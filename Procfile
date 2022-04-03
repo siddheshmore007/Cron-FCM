@@ -1,0 +1,1 @@
+worker: python3 Scripts/cron_service.py

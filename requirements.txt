@@ -1,0 +1,5 @@
+razorpay==1.3.0
+
+pymongo==4.0.2
+
+python-decouple==3.6
