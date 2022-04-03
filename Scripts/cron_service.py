@@ -97,19 +97,6 @@ def request_links(payment_queue):
         collection.update_one(query, update_value)
 
 
-# async def retrieve_new_payment_records():
-#     payment_records = []
-#     encoder = JSONEncoder()
-#
-#     # payment_records = await payment_collection.find({"payment_status": })
-#
-#     async for payment_record in payment_collection.find({"payment_status": "Pending"}):
-#         payment_records.append(payment_record)
-#     return payment_records
-    # async for payments in payment_collection.find():
-    #     payment_records.append(payment_helper(payments))
-    # return payment_records
-
 
 if __name__ == "__main__":
     queue = retrieve_new_payment_records()
