@@ -8,9 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .env
-
 cron/
-
 .Python
 build/
 develop-eggs/
